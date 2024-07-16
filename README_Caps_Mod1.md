@@ -29,7 +29,7 @@ Berikut adalah kolom dalam database di program ini:
 **Database_Student**
 | Nama Kolom | Tipe data | format | Range | Deskripsi |
 |------------|-----------|------- |-------|-----------|
-| Kode | Int | min 1 | No. penginputan data siswa ke database|
+| Kode | Int | min 1 char |  - | No. penginputan data siswa ke database|
 | NIS | Str | 12 char | ST20XX010900Y, XX = 2 digit akhir tahun pendaftaran, Y = identifier siswa | Nomor Induk Siswa|
 | Nama | Str | - | - | Nama Lengkap|
 | J Kel | Str | Laki-laki/Perempuan| - | Jenis Kelamin |
@@ -100,10 +100,10 @@ Anda akan masuk kedalam **student main menu** jika telah **tervalidasi sebagai s
 Sub menu ini akan menampilkan hanya data user, sesuai dengan NIS yang diinputkan.
 ### 2. Help Desk
 Sub menu ini hanya akan menampilkan data tim terkait yang dapat dihubungi oleh user melalui e-mail.
-### Keluar
+### 3. Keluar
 Sub menu ini akan membuat user keluar dari student main menu, dan kembali ke interface awal untuk login
 
-### Notes 
+## Notes 
 Terdapat beberapa fungsi yang digunakan untuk memvalidasi input dari user yang dapat anda lihat setelah beberapa 
 
 
